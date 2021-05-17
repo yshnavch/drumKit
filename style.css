@@ -7,25 +7,21 @@
 }
 body {
 	text-align: center;
-	overflow: hidden;
+	background: url("back3.jpg") no-repeat center center fixed;
+	background-position: center;
+	object-fit: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
 }
-.img{
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:auto;
-    object-fit:cover;
-    z-index: -2;
-    overflow:hidden;
-}
+
 h3 {
 	font-size: 75px;
 	color:rgb(83, 79, 79);
     padding-top: 70px;
 	font-family:reggae one;
 	font-weight: bolder;
-	
+	position: relative;
 }
 .all {
 	margin:90px auto;
@@ -36,7 +32,7 @@ h3 {
 	opacity: 0.5;
 }
 .button {
-	
+	position: relative;
 	border: 6px solid #3c3f47;
 	font-size: 50px;
 	font-family: Zilla Slab;
@@ -50,4 +46,10 @@ h3 {
 	text-align: center;
 	margin: 10px;
 	background-color:whitesmoke;
+}
+@media(max-width:500px){
+	.button{
+		width:100px;
+		height: 100px;
+	}
 }
