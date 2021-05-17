@@ -17,6 +17,7 @@ body {
     height:100%;
     object-fit:cover;
     z-index: -2;
+    overflow:hidden;
 }
 h3 {
 	font-size: 75px;
@@ -27,7 +28,7 @@ h3 {
 	
 }
 .all {
-	margin:6.5% auto;
+	margin:90px auto;
 }
 
 .animation {
